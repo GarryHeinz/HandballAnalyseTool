@@ -90,9 +90,6 @@ public class Controller implements Initializable {
             this.cvsField.getGraphicsContext2D().drawImage(img,0,0);
         });
 
-
-
-
         this.cvsField.setOnMousePressed(me -> {
             System.out.println(me.getEventType());
             this.gc.setFill(Color.RED);
